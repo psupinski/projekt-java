@@ -1,0 +1,103 @@
+body{
+    background-color: #ececec;
+}
+
+
+#formularz {
+	width: 350px;
+	margin: auto;  
+	padding: 0; 
+	background: #fff;
+	border: 1px solid silver;
+	font: 20px calibri;
+	letter-spacing: -1px;
+	padding: 15px 0 0;
+	-webkit-box-shadow: 0 0 2px silver; 
+    -moz-box-shadow: 0 0 2px silver; 
+    box-shadow: 0 0 2px silver;  
+}
+ form {margin: 0;}
+label {
+	display: block;
+	width: 200px;
+	padding: 0px 20px;
+	color: #696969;
+	font-size: 20px;
+	text-shadow: 0 0 1px silver;
+}
+#login, #psw, #kolumna, #lista, #szukaj, #id_prac, #tresc, #imie, #nazwisko, #email, #stanowisko, #ilosc, 
+#pakiet, #termin, #godzina, #pracownik{
+	font-size: 20px;
+	display: block;
+	margin: auto;
+	width: 300px; 
+	padding: 10px 5px;
+	border: 1px solid silver;
+	outline: 5px solid #ebebeb;
+}
+
+.pole{
+    font-size: 20px;
+	display: block;
+	margin: auto;
+	width: 300px; 
+	padding: 10px 5px;
+	border: 1px solid silver;
+	outline: 5px solid #ebebeb;
+}
+
+
+#login:focus, #psw:focus #kolumna:focus, #lista:focus, #szukaj:focus, #id_prac:focus, #tresc:focus, 
+#imie:focus,#nazwisko:focus, #email:focus, #stanowisko:focus, #ilosc:focus, #pakiet:focus, #termin:focus,
+#godzina:focus, #pracownik:focus{
+	outline: 5px solid #e5f2f8;
+} 
+
+
+option:disabled
+{
+	background-color: #ebebeb;
+}
+
+
+@media only screen and (max-width: 400px){
+	#formularz {
+		width: 80%;
+		margin: auto;  
+		padding: 0; 
+		background: #fff;
+		border: 1px solid silver;
+		font: 20px calibri;
+		letter-spacing: -1px;
+		padding: 15px 0 0;
+		-webkit-box-shadow: 0 0 2px silver; 
+		-moz-box-shadow: 0 0 2px silver; 
+		box-shadow: 0 0 2px silver;  
+	}
+	 form {margin: 0;}
+	label {
+		display: block;
+		width: 70%;
+		padding: 0px 40px;
+		color: #696969;
+		font-size: 20px;
+		text-shadow: 0 0 1px silver;
+	}
+	#login, #psw, #kolumna, #lista, #szukaj, #id_prac, #tresc, #imie, #nazwisko, #email, #stanowisko, #ilosc, 
+	#pakiet, #termin, #godzina, #pracownik{
+		font-size: 20px;
+		display: block;
+		margin: auto;
+		width: 70%; 
+		padding: 10px 5px;
+		border: 1px solid silver;
+		outline: 5px solid #ebebeb;
+	}
+	
+	
+	#login:focus, #psw:focus #kolumna:focus, #lista:focus, #szukaj:focus, #id_prac:focus, #tresc:focus, 
+	#imie:focus,#nazwisko:focus, #email:focus, #stanowisko:focus, #ilosc:focus, #pakiet:focus, #termin:focus,
+	#godzina:focus, #pracownik:focus{
+		outline: 5px solid #e5f2f8;
+	} 
+}
